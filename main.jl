@@ -16,7 +16,7 @@ end
 
 function main()
     data = mock_data()
-    n = 10000
+    n = 100000
 
     t0 = time()
     chain = sample([5.5, 3.0], data, n)
@@ -58,6 +58,7 @@ function show_plots(data, chain)
     p1 = plot_results(data, chain)
     p2, p3 = plot_chain(chain)
     plot(p1, p2, p3, layout=l)
+    gui()
 end
 
 data, chain = main()
