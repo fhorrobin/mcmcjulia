@@ -1,4 +1,4 @@
-# A Simple Metropolis Hastings Aslgorithm in Julia
+# A Simple Metropolis Hastings Algorithm in Julia
 
 Implements a simple metropolis hastings algorithm efficiently using Julia.
 Currently single core for testing/comparing with Python speeds.
